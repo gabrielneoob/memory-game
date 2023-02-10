@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
-const infoWrapped = styled.div`
+const InfoWrapped = styled.div`
 
 `
+export {InfoWrapped}
