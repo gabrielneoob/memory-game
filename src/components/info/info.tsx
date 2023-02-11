@@ -1,8 +1,16 @@
 import React from 'react'
+import Button from '../button'
+import * as C from './style'
 
 const Info = () => {
   return (
-    <div>Info</div>
+    <C.InfoWrapped>
+      <C.InfoArea>
+        ...
+      </C.InfoArea>
+
+      <Button>Reiniciar</Button>
+    </C.InfoWrapped>
   )
 }
 

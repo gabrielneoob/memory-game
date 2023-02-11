@@ -1,8 +1,9 @@
 import React from 'react'
+import {GridAreaWrapp} from './style'
 
 const GridArea = () => {
   return (
-    <div>GridArea</div>
+    <GridAreaWrapp>GridArea</GridAreaWrapp>
   )
 }
 
