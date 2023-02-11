@@ -1,12 +1,11 @@
 import React from 'react'
-import Container from './components/container'
+import {Container, GridArea, Info} from './components'
 
 const App = () => {
   return (
     <Container>
-      <div>oi</div>
-      <div>oi</div>
-      <div>adeus</div>
+      <Info></Info>
+      <GridArea></GridArea>
     </Container>
   )
 }
